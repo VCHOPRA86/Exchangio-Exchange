@@ -6,13 +6,10 @@ $(document).ready(function() {
 
         var action = $(this).attr('action'); // Get the form's action attribute
 
-        $("#message").slideUp(750, function() { // Hide any existing message with an animation
-            $('#message').hide();
-
             $('#submit')
                 .attr('disabled', 'disabled'); // Disable the submit button to prevent multiple submissions
 
-            $.post(action, { // Send an AJAX POST request
+                  $.post(action, { // Send an AJAX POST request
                     name: $('#name').val(), // Get the value of the name input
                     email: $('#email').val(), // Get the value of the email input
                     subject: $('#subject').val(), // Get the value of the subject input
