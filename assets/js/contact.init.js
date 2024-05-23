@@ -6,10 +6,13 @@ $(document).ready(function() {
 
         var action = $(this).attr('action'); // Get the form's action attribute
 
+        $("#message").slideUp(750, function() { // Hide any existing message with an animation
+            $('#message').hide();
+
             $('#submit')
                 .attr('disabled', 'disabled'); // Disable the submit button to prevent multiple submissions
 
-                  $.post(action, { // Send an AJAX POST request
+            $.get(action, { // Send an AJAX GET request
                     name: $('#name').val(), // Get the value of the name input
                     email: $('#email').val(), // Get the value of the email input
                     subject: $('#subject').val(), // Get the value of the subject input
@@ -17,12 +20,15 @@ $(document).ready(function() {
                 },
                 function(data) { // Callback function to handle the server's response
                     // Display a success message
-                    $('#message').html("<p>Your message has been sent.</p>").slideDown('slow');
+                    $('#message').html("<div class='alert alert-success'>Your message has been sent.</div>").slideDown('slow');
                     $('#submit').removeAttr('disabled'); // Re-enable the submit button
 
-                    if (data.match('success') != null) { // Optionally, handle specific server response
-                        $('#contact-form').slideUp('slow'); // Hide the form if the response indicates success
-                    }
+                    $('#contact-form').slideUp('slow'); // Hide the form
                 }
+            ).fail(function() {
+                $('#message').html("<div class='alert alert-danger'>There was an error sending your message. Please try again later.</div>").slideDown('slow');
+                $('#submit').removeAttr('disabled');
             });
         });
+    });
+});
