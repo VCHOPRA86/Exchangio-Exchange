@@ -24,10 +24,5 @@ $(document).ready(function() {
                         $('#contact-form').slideUp('slow'); // Hide the form if the response indicates success
                     }
                 }
-            ).fail(function() {
-                $('#message').html("<p>There was an error sending your message. Please try again later.</p>").slideDown('slow');
-                $('#submit').removeAttr('disabled');
             });
         });
-    });
-});
