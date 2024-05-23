@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Use our free currency converter to get accurate and reliable foreign exchange rates.">
+        <meta name="keywords" content="">
+
+        <!-- Site Title -->
+        <title> Exchangio Exchange - Your Currency Exchange website</title>
+        <!-- Site favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+        <!-- Custom  Css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    </head>
+
+     <body >
+
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
+            <div class="container">
+                <!-- LOGO -->
+                <a class="logo" href="index.html">
+                    Exchangio Exchange
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="mdi mdi-menu"></i>
+                </button>
+                <!-- Start Navbar -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
+                        <li class="nav-item font-weight-600 active">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Currency facts</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#faq" class="nav-link">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Start Home -->
+        <section class="bg-home" id="home">
+        <div class="row">
+         <div class="col-lg-12 curr">
+                                   <h1>Awesome Currency Converter</h1>
+    <p class="convert">
+        Convert :
+        <input type="number" id="amount" placeholder="0" value="1"> 
+    </p>
+      <div class="dropdowns">
+            <select id="from-currency-select"></select>
+        
+        <button id="exchange"><i class="fas fa-exchange-alt"></i></button>
+
+        <select id="to-currency-select"></select>
+    </div>
+    <p class="exchange">
+        Exchange Rate:
+        
+        <input type="text" id="exchange-rate">
+    </p>
+    <button id="exchange_button">Exchange my money now!</button>
+    <p id="result"></p>
+
+     
+   </div>
+</div>
+        </section>
+        <!-- End Home -->
+
+        <!-- Start About -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class=" title text-center mb-5">
+                            <h3 class="font-weight-600 mb-3">Currency Exchange</h3>
+                            <p class="text-muted">Exchangio Exchange is a business that specialised in providing foreign exchange services.</p>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="row vertical-content mt-4">
+                    <div class="col-lg-6">
+                        <div class="about-image">
+                            <img src="assets/images/about-us.png" alt="" class="mx-auto d-block img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="about-content">
+                            <h3 class="font-weight-600">What Is a Currency Exchange?</h3>
+                            <p>A currency exchange is a licensed business that allows customers to exchange one currency for another. Currency exchange of physical money (coins and paper bills) is usually done over the counter at a teller station, which can be found in various places such as airports, banks, hotels, and resorts. </p>
+                       
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Start Currency Facts-->
+        <section class="section bg-color" id="services">
+            <div class="container-facts">
+                <div class="row no-gutters">
+                    <div class="col-lg-12">
+                        <div class="title text-center mb-5">
+                            <h3 class="font-weight-600 mb-3">Currency Facts</h3>
+                            <p class="text-muted">History of the world's Currency.</p>
+                            <p class="text-moreinfo">Click the links below to explore and uncover interesting facts about the history of the various currencies.</p>
+                        </div>
+
+                    
+                        <div class="flex flex-wrap row small__collection">
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/aed.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-ae"></span>
+<span class="preview-title-code">AED</span>
+<span class="preview-title-name">Utd. Arab Emir. Dirham</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/aud.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-au"></span>
+<span class="preview-title-code">AUD</span>
+<span class="preview-title-name">Australian Dollar</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/brl.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-br"></span>
+<span class="preview-title-code">BRL</span>
+<span class="preview-title-name">Brazilian Real</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/chf.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-ch"></span>
+<span class="preview-title-code">CHF</span>
+<span class="preview-title-name">Swiss Franc</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/cny.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-cn"></span>
+<span class="preview-title-code">CNY</span>
+<span class="preview-title-name">Chinese Yuan Renminbi</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/eur.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-eu"></span>
+<span class="preview-title-code">EUR</span>
+<span class="preview-title-name">Euro</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/gbp.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-gb"></span>
+<span class="preview-title-code">GBP</span>
+<span class="preview-title-name">Great British Pound</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/hkd.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-hk"></span>
+<span class="preview-title-code">HKD</span>
+<span class="preview-title-name">Hong Kong Dollar</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/inr.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-in"></span>
+<span class="preview-title-code">INR</span>
+<span class="preview-title-name">Indian Rupee</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/jpy.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-jp"></span>
+<span class="preview-title-code">JPY</span>
+<span class="preview-title-name">Japanese Yen</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/mxn.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-mx"></span>
+<span class="preview-title-code">MXN</span>
+<span class="preview-title-name">Mexican Peso</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/myr.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-my"></span>
+<span class="preview-title-code">MYR</span>
+<span class="preview-title-name">Malaysian Ringgit</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/php.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-ph"></span>
+<span class="preview-title-code">PHP</span>
+<span class="preview-title-name">Philippine Peso</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/sar.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-sa"></span>
+<span class="preview-title-code">SAR</span>
+<span class="preview-title-name">Saudi Riyal</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/sek.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-se"></span>
+<span class="preview-title-code">SEK</span>
+<span class="preview-title-name">Swedish Krona</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/sgd.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-sg"></span>
+<span class="preview-title-code">SGD</span>
+<span class="preview-title-name">Singapore Dollar</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/thb.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-th"></span>
+<span class="preview-title-code">THB</span>
+<span class="preview-title-name">Thai Baht</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/usd.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-us"></span>
+<span class="preview-title-code">USD</span>
+<span class="preview-title-name">US Dollar</span>
+</a>
+</div>
+<div class="small__collection__post currency__collection__post">
+<a href="currency-facts/zar.html" class="small__collection__post--title currency__collection__post--title">
+<span class="region__country-flag flag-icon flag-icon-za"></span>
+<span class="preview-title-code">ZAR</span>
+<span class="preview-title-name">South African Rand</span>
+</a>
+</div>
+</div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- Start FAQ -->
+        <section class="section bg-light" id="faq">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="title text-center mb-5">
+                            <h3 class="font-weight-600 mb-3">FAQ</h3>
+                            <p class="text-muted">We have put together a list of answers to your most frequently asked questions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row vertical-content mt-4">
+                    <div class="col-lg-6">
+                        <img src="assets/images/FAQ.jpg" alt="" class="mx-auto d-block img-fluid">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="accordion" id="faqs-content">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 data-toggle="collapse" data-target="#item1" class="collapsed text-white font-weight-600 mb-0" aria-expanded="false">
+                                        Where to exchange currency?
+                                    </h5>
+                                </div>
+                                <div id="item1" class="collapse show" data-parent="#faqs-content">
+                                    <div class="card-body">
+                                        <p class="text-muted contain mb-0">You can exchange currency in thousands of places across the UK, including at banks, Post Offices, travel agents, dedicated currency exchange stores and in high street stores that have a travel money (or bureau de change) counter.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 data-toggle="collapse" data-target="#item2" class="collapsed text-white font-weight-600 mb-0" aria-expanded="false">
+                                        How to exchange currency?
+                                    </h5>
+                                </div>
+                                <div id="item2" class="collapse" data-parent="#faqs-content">
+                                    <div class="card-body">
+                                        <p class="text-muted contain mb-0">If you're getting your currency from a dedicated currency exchange, high street store, travel agency or the Post Office, you can just walk in and exchange your desired number of pounds (up to a certain amount, which varies from retailer to retailer). Most will only offer walk-in exchange on common currencies, like euros and US dollars. If you're heading somewhere with a less common currency or ordering more than £1,000, it's best to do it online or check with your branch first.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 data-toggle="collapse" data-target="#item3" class="collapsed text-white font-weight-600 mb-0" aria-expanded="false">
+                                        How does currency exchange work?
+                                    </h5>
+                                </div>
+                                <div id="item3" class="collapse" data-parent="#faqs-content">
+                                    <div class="card-body">
+                                        <p class="text-muted contain mb-0">Currency exchange is pretty complex but it uses something called the 'Forex' trading market. Essentially, it's a stock market for currencies.<br><br>
+                                        Your provider will set their rate to reflect the current Forex rate for each currency, which varies from day to day, taking out a percentage for commission – ensuring they make money from providing the service. This is why most providers offer better rates for high value purchases, as they make more money and so can reduce the commission rate slightly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End col-md-12 -->
+                </div>
+                <!-- End row -->
+            </div>
+            <!-- End container -->
+        </section>
+        <!-- End section -->
+
+        <!-- Start contact -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="title text-center mb-5">
+                            <h3 class="font-weight-600 mb-3">Contact Us</h3>
+                            <p class="text-muted">If you have any question, or need any help, please contact us.</p>                      
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center mt-4">
+                    <div class="col-lg-10">
+                        <div class="custom-form">
+                            <div id="message"></div>
+                            <form method="post" action="#" name="contact-form" id="contact-form">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group mt-2">
+                                            <input name="name" id="name" class="form-control" placeholder="Your name" type="text" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group mt-2">
+                                            <input name="email" id="email" class="form-control" placeholder="Your Email" type="email" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group mt-2">
+                                            <input class="form-control" id="subject" placeholder="Your Subject.." type="text" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group mt-2">
+                                            <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your Message...." required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-center">
+                                    <div class="col-lg-12 mt-3">
+                                        <input id="submit" name="send" class="submitBnt btn btn-sm btn-custom btn-round" value="Send Message" type="submit">
+                                        <div id="simple-msg"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--START FOOTER ALTER-->
+        <div class="footer-alt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="float-left pull-none ">
+                            <p class="copy-rights text-muted mb-0">2024 © - V Chopra</p>
+                        </div>
+
+                        <div class="float-right pull-none">
+                            <ul class="social-icon list-unstyled list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div> 
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--START FOOTER ALTER-->
+
+
+        <!-- javascript -->
+        <script src="assets/js/jquery.min.js"></script>
+          <script src="assets/js/currency-codes.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/jquery.easing.min.js"></script>
+        <!-- partical js-->
+        <script src="assets/js/particles.js"></script>  
+        <script src="assets/js/particles.app.js"></script>
+        <!-- contact -->
+        <script src="assets/js/contact.init.js"></script>
+        <!-- jquery.app js-->
+        <script src="assets/js/jquery.app.js"></script>
+    </body>
+</html>
