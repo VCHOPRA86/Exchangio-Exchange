@@ -71,21 +71,6 @@ Bootstrap: Framework for building responsive and mobile-first websites.
 jQuery: Simplifying JavaScript operations.
 FontAwesome: Icons for better UI representation.
 
-
-**Desktop**
-
-* [Home Page]
-* [About Us Page]
-
-
-**Mobile**
-
-* [Home Page]
-* [About Us Page]
-* [Menu Pages]
-* [Contact Page]
-
-
 Credits
 Developer: V Chopra
 Design: Based on various open-source templates and designs.
