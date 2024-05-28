@@ -298,6 +298,14 @@ input#amount {
   color: #fb3e3e !important;
 }
 
+/* Flex container for header */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
 .logo {
   color: #ffffff;
   font-weight: 700;
@@ -802,6 +810,19 @@ span.preview-title-name:hover {
 
 
 @media (min-width: 200px) and (max-width: 768px) {
+  
+  .bg-home {
+    padding: 125px 0px 10px 0px;
+  }
+
+
+h1 {
+  font-size: 2rem;
+}
+
+
+
+
   .navbar-custom {
     margin-top: 0px;
     padding: 10px 0px !important;
@@ -838,6 +859,7 @@ span.preview-title-name:hover {
   }
   .logo {
     color: #0f1f3e !important;
+    font-size: 15px;
   }
   .navbar-btn {
     margin: 6px 0px !important;
@@ -910,7 +932,11 @@ i.mdi.mdi-menu {
 }
 
 .mdi-menu:before {
-    content: "\F35C";
+    content: "\f0c9"; /* Menu icon */
+}
+
+.navbar-toggler.open .mdi-menu:before {
+    content: "\f00d"; /* Cross icon */
 }
 
 .mdi:before, .mdi-set {
