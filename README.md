@@ -112,7 +112,7 @@ The site is hosted on Github Pages and was deployed using the following steps:
 3. Select "settings" on the repository page.
 4. Under "GitHub Pages" section, choose master brance as source.
 
-Live site can be viewed here: [BurgerBoyz](https://vchopra86.github.io/ExchangioExchange-milestone-project-two/)
+Live site can be viewed here: [Exchangio Exchange](https://vchopra86.github.io/ExchangioExchange-milestone-project-two/)
 
 
 
