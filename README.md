@@ -98,13 +98,14 @@ Wireframes were created using [miro](https://miro.com/wireframe/) wireframe edit
 
 **Desktop**
 
-* [One Page Design](https://github.com/VCHOPRA86/BurgerBoyz-milestone-project-one/blob/main/wireframes/desktop/Home-desktop.png)
-* [Currency Fact inner pages](https://github.com/VCHOPRA86/BurgerBoyz-milestone-)
+* [One Page Design](wireframes/Desktop-Mock-Up.jpg)
+* [Currency Fact inner pages](wireframes/Desktop-Inner-page-currency-facts.jpg
+)
 
 **Mobile**
 
-* [One Page Design](https://github.com/VCHOPRA86/BurgerBoyz-milestone-project-one/blob/main/wireframes/desktop/Home-desktop.png)
-* [Currency Fact inner pages](https://github.com/VCHOPRA86/BurgerBoyz-milestone-)
+* [One Page Design](wireframes/Mobile-Mock-Up.jpg)
+* [Currency Fact inner pages](wireframes/Mobile-Inner-page-currency-facts.jpg)
 
 
 ## Site Features
