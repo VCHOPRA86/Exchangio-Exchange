@@ -3,6 +3,8 @@
 body {
   font-family: "Muli", sans-serif;
   font-size: 14px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
 }
 
 h1,
@@ -48,8 +50,8 @@ input#amount {
 
 
 .section {
-  padding-top: 70px !important;
-  padding-bottom: 70px !important;
+  margin-top: 70px !important;
+  margin-bottom: 70px !important;
   position: relative;
 }
 
@@ -166,7 +168,7 @@ input#amount {
 }
 
 .btn-sm {
-  padding: 10px 25px;
+  padding: 7px 20px;
   color: #fff;
 }
 
@@ -243,7 +245,7 @@ input#amount {
 }
 
 .navbar-custom {
-  padding: 20px 0px;
+  padding: 15px 0px;
   width: 100%;
   border-radius: 0px;
   z-index: 999;
@@ -264,10 +266,7 @@ input#amount {
   font-weight: 600;
 }
 
-.navbar-custom .navbar-nav .nav-link {
-  padding-right: 0px;
-  padding-left: 0px;
-}
+
 
 .navbar-custom .navbar-toggles {
   padding: .25rem .75rem;
@@ -343,6 +342,8 @@ input#amount {
 }
 
 /*---NAVBAR STICKY--*/
+
+/*---BACKGROUND NAV BORDER---*/
 .nav-sticky.navbar-custom {
   margin-top: 0px;
   padding: 10px 0px;
@@ -351,6 +352,7 @@ input#amount {
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
   color: #0f1f3e !important;
 }
+
 
 .nav-sticky .navbar-toggles {
   padding: .25rem .75rem;
@@ -386,6 +388,39 @@ input#amount {
   background-position: center center;
   position: relative;
 }
+
+
+/*# Currency Facts-additional  */
+
+.bg-fact
+ {
+    background: -webkit-gradient(linear, left top, right top, from(#512DA8), to(#711e72));
+    background: linear-gradient(to right, #512DA8, #711e72);
+    padding-top: 65px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+h2.flag {
+    font-size: 20px;
+}
+
+.post__body__block.block--table .border-wrapper {
+    border: 1px solid #ced1d5;
+    border-radius: 15px;
+    display: block;
+    padding: 30px;
+}
+
+.post__body__block.block--table table tbody tr td, .post__body__block.block--table table tbody tr th {
+    padding: 10px 1em 10px 0;
+}
+
+.post__body__block.block--table table tbody tr:not(:last-child) {
+    border-bottom: 2px solid #939191;
+}
+
 
 .home-center {
   display: table;
@@ -472,9 +507,15 @@ ul>li>a {
 
 
 
+.title-curr {
+  background-color: #000000;
+  font-size: 30px;
+  display: inline-block;
+}
 
-
-
+.section#info {
+  background-color: #f0f0f0;
+}
 
 
 
@@ -568,8 +609,7 @@ body.authentication-bg {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 10px 10px;
     line-height: 3em;
     width: 100%;
 }
@@ -808,8 +848,13 @@ span.preview-title-name:hover {
   
 }
 
+   /* Hide the checkbox */
+        .navbar-toggle {
+            display: none;
+        }
 
-@media (min-width: 200px) and (max-width: 768px) {
+
+@media (min-width: 200px) and (max-width: 991px) {
   
   .bg-home {
     padding: 125px 0px 10px 0px;
@@ -821,12 +866,85 @@ h1 {
 }
 
 
+ul#mySidenav {
+    text-transform: uppercase;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+/* This element requires a width parameter */
+
+/* Hamburger menu CSS */
+.navbar-custom .navbar-toggler {
+            border: none;
+            background: none;
+            cursor: pointer;
+            padding: 0;
+            margin-left: 112px;
+        }
+
+        .navbar-custom .navbar-toggler .fa-bars {
+            font-size: 24px;
+            color: #000; /* Customize icon color */
+        }
+
+        .navbar-custom .navbar-toggler span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background-color: #000; /* Customize span color */
+            margin: 5px 0;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Hide the checkbox */
+        .navbar-toggle {
+            display: none;
+        }
+
+        /* Change the spans to form a cross when the checkbox is checked */
+        .navbar-toggle:checked + .navbar-toggler span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .navbar-toggle:checked + .navbar-toggler span:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+
+        .navbar-toggle:checked + .navbar-toggler span:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+
+        /* Control the visibility of the menu */
+        #navbarCollapse {
+            display: none;
+        }
+
+        .navbar-toggler {
+        border: none;
+        background: transparent !important;
+    }
+
+    .navbar-toggler span {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: #333;
+        margin: 5px 0;
+    }
+
+        .navbar-toggle:checked ~ #navbarCollapse {
+            display: block;
+        }
+
+  
+
+
+  
 
 
   .navbar-custom {
-    margin-top: 0px;
-    padding: 10px 0px !important;
-    background-color: #ffffff !important;
+    background-color: #ffffff;
     -webkit-box-shadow: 0 10px 33px rgba(15, 31, 62, 0.1);
     box-shadow: 0 10px 33px rgba(15, 31, 62, 0.1);
     color: #0f1f3e !important;
@@ -853,8 +971,7 @@ h1 {
   }
   .navbar-toggler {
     font-size: 24px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0 10px 0 0;
     color: #0f1f3e;
   }
   .logo {
@@ -876,7 +993,16 @@ h1 {
   .faq-image img {
     margin-bottom: 24px;
   }
+
+
+.section {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+  position: relative;
 }
+
+
+
 
 textarea.form-control {
   height: auto !important;
@@ -927,27 +1053,46 @@ textarea.form-control {
           box-shadow: none;
 }
 
-i.mdi.mdi-menu {
-    float: right;
-}
 
-.mdi-menu:before {
-    content: "\f0c9"; /* Menu icon */
-}
-
-.navbar-toggler.open .mdi-menu:before {
-    content: "\f00d"; /* Cross icon */
-}
-
-.mdi:before, .mdi-set {
-    display: inline-block;
-    font: normal normal normal 24px / 1 "Material Design Icons";
-    font-size: inherit;
-    text-rendering: auto;
-    line-height: inherit;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 /*# sourceMappingURL=style.css.map */
 
 
+/* Currency Facts Mobile/Tablet */
+@media (max-width: 460px) {
+
+.small__collection__post {
+    flex: 1;
+    flex: 0 0 33.33333%;
+    max-width: 100%;
+    min-height: 1px;
+    padding: 10px 50px;
+    line-height: 3em;
+    width: 100%;
+}
+
+.flex.flex-wrap.row.small__collection {
+  display: inline-block;
+ }
+
+ .title-curr {
+  font-size: 18px;
+}
+
+h2.flag {
+    font-size: 18px;
+ }
+}
+
+@media (max-width: 650px) {
+
+.small__collection__post {
+    flex: 1;
+    flex: 49%;
+    max-width: 100%;
+    min-height: 1px;
+    padding: 10px 10px;
+    line-height: 3em;
+    width: 100%;
+}
+
+}
