@@ -231,7 +231,7 @@ git clone https://github.com/VCHOPRA86/ExchangioExchange-milestone-project-two.g
 ### Content
 All content was written and developed by me.
 
-### Code / 
+### Code 
 The following sites were used for inspiration and assistance:
 
 * [CSS Tricks](https://css-tricks.com/)
