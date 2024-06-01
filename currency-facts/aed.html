@@ -16,22 +16,32 @@
         <link rel="stylesheet" href="../assets/css/bootstrap.min.css" type="text/css">
         <!-- Custom  Css -->
         <link rel="stylesheet" type="text/css" href="../assets/css/style.css"/>
-        <link rel="stylesheet" type="text/css" href="../assets/css/custom.css"/>
+        
 
     </head>
 
      <body >
 
         <!--Navbar Start-->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-custom1 sticky sticky-dark">
+        <div class="bg-fact">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
             <div class="container">
+                 <!-- Header with flexbox for alignment -->
+               <div class="header-flex">
                 <!-- LOGO -->
                 <a class="logo" href="../index.html">
                     Exchangio Exchange
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="mdi mdi-menu"></i>
-                </button>
+         <!-- Hamburger button -->
+            <div>
+                <input type="checkbox" id="navbar-toggle" class="navbar-toggle" style="display:none;">
+                <label for="navbar-toggle" class="navbar-toggler" id="navbar-toggler">
+                  
+                    <span></span> <!-- These spans are the menu lines -->
+                    <span></span>
+                    <span></span>
+
+                </label>
                 <!-- Start Navbar -->
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
@@ -54,22 +64,24 @@
                     </ul>
                 </div>
             </div>
+         </div>
         </nav>
+    </div>
         <!-- Navbar End -->
-        <div class="bg-fact" id="fact">
-        </div>
+        
+        
 
-   <section class="section" id="about">
+   <section class="section" id="info">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
         <div class="content_library post currency_profile">
 <div class="post__header__title">
 <h1 class="title-curr">Utd. Arab Emir. Dirham Currency</h1>
-<h1 class="flag">
+<h2 class="flag">
 <span class="region__country-flag flag-icon flag-icon-ae"></span>
 AED
-</h1>
+</h2>
 </div>
 </div>
 <div class="post__body">
@@ -199,5 +211,14 @@ AED is pegged to
             </div>
         </div>
         <!--START FOOTER ALTER-->
+
+        <!-- jquery.app js-->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/jquery.app.js"></script>
+        
+        
+     
+       
+
     </body>
 </html>
