@@ -16,7 +16,7 @@ The website showcases a one page design consisting of sections. As for the curre
 
 The repository on Github that contains the website source code and assets is available at the following url: [Code Repository](https://github.com/VCHOPRA86/ExchangioExchange-milestone-project-two)
 
-The website was built with a responsive look and feel for desktop, tablet and mobile devices![Responsive site example](assets/readme/exchangioexchange-mockup)
+The website was built with a responsive look and feel for desktop, tablet and mobile devices![Responsive site example](assets/readme/exchangioexchange-mockup.png)
 
  - - - - 
 
