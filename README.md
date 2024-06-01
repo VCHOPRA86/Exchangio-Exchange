@@ -8,7 +8,7 @@
 ## Project Overview
 Exchangio Exchange is a comprehensive web application designed to provide accurate and reliable foreign exchange rates. Users can convert currencies easily by inputting the amount in one currency and obtain the equivalent amount in another currency based on the current exchange rate., explore interesting currency facts, and find answers to frequently asked questions about currency exchange.
 
-The project goal for the Exchangio Exchange is to offer users a dependable and user-friendly platform for currency conversion while educating them on the historical and fascinating facts about different world currencies. This will involve fetching exchange rates from an API This project is tailored for travellers, business professionals, students, and anyone in need of quick and accurate foreign exchange rate information.
+The project goal for the Exchangio Exchange website is to offer users a dependable and user-friendly platform for currency conversion while educating them on the historical and fascinating facts about different world currencies. This will involve fetching exchange rates from an API This project is tailored for travellers, business professionals, students, and anyone in need of quick and accurate foreign exchange rate information.
 
 It will be constructed using HTML, CSS, JS & an API for the currency  conversions.
 
