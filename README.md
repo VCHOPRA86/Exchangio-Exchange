@@ -122,14 +122,28 @@ https://www.exchangerate-api.com/
 2. Educational Content
 Currency Facts: A dedicated section with interesting and historical facts about various world currencies.
 
- User-Friendly Layout: Educational content is presented in an engaging and easy-to-read format.
+   User-Friendly Layout: Educational content is presented in an engaging and easy-to-read format.
 
 3. Mobile/Tablet Accessibility: The website is fully optimized for mobile device & tablet devices, allowing users to access features on-the-go.
 
- Responsive Interface: The user interface adjusts seamlessly to different screen sizes and orientations.
+   Responsive Interface: The user interface adjusts seamlessly to different screen sizes and orientations.
 
 4. Contact and FAQ Section: To help assist users with common questions.
 Contact Form: Users can submit inquiries or feedback through an integrated contact form.
+
+### Future Features
+
+1. Historical Exchange Rate Data:
+
+   I would like to provide historical exchange rate data and trends, allowing users to analyze past performance and make informed decisions.
+
+2. Multi-Language Support:
+
+   I would like to add multi-language support to the site, making it accessible to a broader audience by providing translations in various languages.
+
+3. Customizable Interface:
+
+   I would like to allow users to customize the site interface, such as selecting their default currencies and preferred layout, to enhance their user experience.
 
  - - - - 
 
