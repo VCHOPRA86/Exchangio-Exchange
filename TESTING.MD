@@ -33,10 +33,16 @@ Exchangio Exchange website has passed all tests using the W3C CSS Validator tool
 # PageSpeed Insights
 
 ### PageSpeed Insights Report for Main Site (Desktop)
-<h2 align="center"><img src="assets/readme/pagespeed-report-index-page-desktop.png"></h2>
+<h2 align="center"><img src="assets/readme/pagespeed-desktop.png"></h2>
 
 ### PageSpeed Insights Report for Main site (Mobile)
-<h2 align="center"><img src="assets/readme/pagespeed-report-index-page-mobile.png"></h2>
+<h2 align="center"><img src="assets/readme/pagespeed-mobile.png"></h2>
+
+### PageSpeed Insights Report for Currency facts - Inner page (Desktop)
+<h2 align="center"><img src="assets/readme/pagespeed-innerpage-desktop.png"></h2>
+
+### PageSpeed Insights Report for Currency facts - Inner page (Mobile)
+<h2 align="center"><img src="assets/readme/pagespeed-innerpage-mobile.png"></h2>
 
 I used the pagespeed insights reports to examine the pages of the website for the following
 - Performace
