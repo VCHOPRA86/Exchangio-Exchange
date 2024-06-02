@@ -91,6 +91,9 @@ The feedback on the website and documentation was positive overall.  Feedback in
 
 # Resolved Bugs
 
+- Issues with the navbar icon not aligning correctly
+   so added a header-flex class to fix the issue.
+
 - There were issues with the mobile navbar when scrolling down the page. 
    I resolved this by adding the no-gutters class to the row element.
 
