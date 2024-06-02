@@ -580,12 +580,6 @@ body.authentication-bg {
 }
 
 
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-  background-color: #fb3e3e;
-  color: #fb3e3e !important;
-  border-color: #fb3e3e !important;
-}
-
 .link-resize p {
   font-size: 13px;
 }
