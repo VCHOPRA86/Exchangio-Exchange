@@ -191,6 +191,7 @@ input#amount {
     outline: none;
     text-decoration: none;
     color: #ffffff;
+    background-color: #000000;
 }
 
 .btn-white {
