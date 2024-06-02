@@ -91,7 +91,13 @@ The feedback on the website and documentation was positive overall.  Feedback in
 
 # Resolved Bugs
 
-- Issue found on width size 360px with the Hamburger was out of alignment. Issue was fixed by changing the padding size.
+- There were issues with the mobile navbar when scrolling down the page. 
+   I resolved this by adding the no-gutters class to the row element.
+
+
+-  Referred to this link for help animate smooth scroll for nav anchor links
+
+    https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
 
 - Issues found on width size 280px with the logo being to large and the newsletter info button was overflowing outside of the max width. Both issues were fixed by reducing the font size of the logo and by changing the padding to 0. 
 
