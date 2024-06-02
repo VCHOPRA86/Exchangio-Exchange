@@ -375,7 +375,7 @@ input#amount {
 .bg-home {
     background: -webkit-gradient(linear, left top, right top, from(#512da8), to(#711e72));
     background: linear-gradient(to right, #512da8, #711e72);
-    padding: 300px 0px 300px 0px;
+    padding: 300px 0px 280px 0px;
     background-size: cover;
     background-position: center center;
     position: relative;
