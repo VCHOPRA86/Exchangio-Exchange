@@ -812,6 +812,11 @@ span.preview-title-name:hover {
     display: none;
 }
 
+section#contact {
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
 @media (min-width: 200px) and (max-width: 991px) {
     .bg-home {
         padding: 125px 0px 10px 0px;
