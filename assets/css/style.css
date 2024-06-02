@@ -1039,5 +1039,9 @@ section#contact {
         padding: 10px 10px;
         line-height: 3em;
         width: 100%;
+
+ img.mx-auto.d-block.img-fluid {
+    width: 250px;
+
     }
 }
