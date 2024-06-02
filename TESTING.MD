@@ -50,7 +50,7 @@ I used the pagespeed insights reports to examine the pages of the website for th
 - Best Practices 
 - SEO
 
-All Pages performed well (scored 83 and above on desktop) in:
+All Pages performed well (scored 76 and above on desktop) in:
 - Performance, Accessibility, Best Practices and SEO.
 
 Some Pages did not perform as well (scored 73 and above) in:
