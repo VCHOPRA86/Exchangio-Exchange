@@ -687,6 +687,8 @@ p#result {
 
 #exchange-rate {
     cursor: default;
+    background: #ffffff;
+    color: black;
 }
 
 .col-lg-12.curr {
