@@ -23,7 +23,7 @@ Exchangio Exchange website has passed all tests using the W3C HTML Validator too
 <h2 align="center"><img src="assets/readme/code-validator-html-code-index-page.jpg"></h2>
 
 ### Inner Page Links - Currency Facts
-<h2 align="center"><img src="assets/readme/code-validator-html-inner-page.jpg"></h2>
+<h2 align="center"><img src="assets/readme/code-validator-html-inner-page.png"></h2>
 
 ## W3C CSS Validator
 
