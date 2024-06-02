@@ -1,9 +1,36 @@
-// ----- CONTACT ----- //
- 
 $(document).ready(function() {
-        // When the document is fully loaded and ready
+    // Function to validate the form
+    const validateForm = () => {
+        // Get form inputs
+        const nameInput = $('#name');
+        const emailInput = $('#email');
+        const subjectInput = $('#subject');
+        const commentsInput = $('#comments');
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        // Check if any of the required fields are empty
+        if (nameInput.val().trim() === "" || emailInput.val().trim() === "" || subjectInput.val().trim() === "" || commentsInput.val().trim() === "") {
+            return false;
+        }
+
+        // Check for valid email format
+        if (!emailPattern.test(emailInput.val().trim())) {
+            return false;
+        }
+
+        return true;
+    };
+
+    // When the document is fully loaded and ready
     $('#contact-form').submit(function(event) {
         event.preventDefault(); // Prevent the default form submission
+
+        // Validate the form fields
+        if (!validateForm()) {
+            // Display error message
+            $('#message').html("<div class='alert alert-danger'>Please fill in all the required fields with valid information.</div>").slideDown('slow');
+            return;
+        }
 
         var action = $(this).attr('action'); // Get the form's action attribute
 
@@ -13,7 +40,7 @@ $(document).ready(function() {
             $('#submit')
                 .attr('disabled', 'disabled'); // Disable the submit button to prevent multiple submissions
 
-            $.get(action, { // Send an AJAX GET request 
+            $.post(action, { // Send an AJAX POST request
                     name: $('#name').val(), // Get the value of the name input
                     email: $('#email').val(), // Get the value of the email input
                     subject: $('#subject').val(), // Get the value of the subject input
@@ -26,7 +53,7 @@ $(document).ready(function() {
 
                     $('#contact-form').slideUp('slow'); // Hide the form
                 }
-            ).fail(function() {  // Handle failure case if failed
+            ).fail(function() {  // Handle failure case
                 $('#message').html("<div class='alert alert-danger'>There was an error sending your message. Please try again later.</div>").slideDown('slow');
                 $('#submit').removeAttr('disabled'); // Re-enable the submit button
             });
