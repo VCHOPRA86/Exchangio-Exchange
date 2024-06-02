@@ -1,6 +1,6 @@
 //add currency codes here
 
-currencies = [
+export const currencies = [
   "AED",
   "ARS",
   "AUD",
