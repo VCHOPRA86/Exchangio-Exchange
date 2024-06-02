@@ -819,8 +819,9 @@ section#contact {
 
 
 @media (min-width: 992px) {
-    .col-lg-12.curr
+    .col-lg-12.curr {
     margin-top: -50px;
+    }
 }
 
 @media (min-width: 200px) and (max-width: 991px) {
