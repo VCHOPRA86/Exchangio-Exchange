@@ -47,8 +47,7 @@ input#amount {
 }
 
 .section {
-    margin-top: 70px !important;
-    margin-bottom: 70px !important;
+    padding-top: 70px; /* Adjust according to the height of your navbar */
     position: relative;
 }
 
