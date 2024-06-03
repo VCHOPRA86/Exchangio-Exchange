@@ -43,7 +43,7 @@ $(document).ready(function() {
             $.ajax({
                 url: action, // Formspree endpoint
                 method: "POST",
-                data: $(this).serialize(), // Serialize form data
+                data: $('#contact-form').serialize(), // Serialize form data
                 dataType: "json",
                 success: function(data) { // Callback function to handle the server's response
                     // Display a success message
