@@ -1,5 +1,3 @@
-import { currencies } from './currency-codes.js';
-
 //api key
 let apiKey = "7d085f100a4037cc8fc00029";
 let api = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
