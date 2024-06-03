@@ -129,7 +129,7 @@ Currency Facts: A dedicated section with interesting and historical facts about 
    Responsive Interface: The user interface adjusts seamlessly to different screen sizes and orientations.
 
 4. Contact and FAQ Section: To help assist users with common questions.
-Contact Form: Users can submit inquiries or feedback through an integrated contact form.
+Contact Form: Users can submit inquiries or feedback through an integrated contact form with https://formspree.io/ implemented
 
 ### Future Features
 
@@ -187,6 +187,9 @@ Contact Form: Users can submit inquiries or feedback through an integrated conta
 
 * [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html)
   * For image editing and resizing.
+ 
+* [Formspree](https://formspree.io/)
+   * For contact form submission.
 
 * [Techsini](https://techsini.com/multi-mockup/)
   * Techsini was used to help check responsiveness and take screenshots of the page at different screen sizes.
