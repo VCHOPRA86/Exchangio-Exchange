@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var form = document.getElementById("contact-form");
-    var status = document.getElementById("contact-form-status");
+    var status = document.getElementById("message-status");
 
     // Function to validate the form
     const validateForm = () => {
