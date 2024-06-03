@@ -30,6 +30,13 @@ Exchangio Exchange website has passed all tests using the W3C HTML Validator too
 Exchangio Exchange website has passed all tests using the W3C CSS Validator tool
 <h2 align="center"><img src="assets/readme/code-validator-css.png"></h2>
 
+## JSHINT Javascript Code Quality Tool
+
+Exchangio Exchange site showed an error using the JSHint Javascript validation tool. See resolved bug.
+
+<h2 align="center"><img src="assets/readme/jshint.png"></h2>
+
+
 # PageSpeed Insights
 
 ### PageSpeed Insights Report for Main Site (Desktop)
@@ -102,7 +109,7 @@ The feedback on the website and documentation was positive overall.  Feedback in
 
     https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
 
-- Issues found on width size 280px with the logo being to large and the newsletter info button was overflowing outside of the max width. Both issues were fixed by reducing the font size of the logo and by changing the padding to 0. 
+- Undefined variable in the script.js file for currencies which has been resolved. 
 
 
 Back to [README.md](/README.md#testing)
