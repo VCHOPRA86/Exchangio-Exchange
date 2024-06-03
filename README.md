@@ -215,7 +215,7 @@ Contact Form: Users can submit inquiries or feedback through an integrated conta
 
 ## Testing
 
-Please refer [here](TESTING.md) for more information on testing of the Exchangio Exchange website
+Please refer [here](TESTING.MD) for more information on testing of the Exchangio Exchange website
 
  - - - - 
 
