@@ -51,10 +51,11 @@ $(document).ready(function() {
                     $('#submit').removeAttr('disabled'); // Re-enable the submit button
 
                     $('#contact-form').slideUp('slow'); // Hide the form
+                },
+                error: function(err) {  // Handle failure case
+                    $('#message').html("<div class='alert alert-danger'>There was an error sending your message. Please try again later.</div>").slideDown('slow');
+                    $('#submit').removeAttr('disabled'); // Re-enable the submit button
                 }
-            ).fail(function() {  // Handle failure case
-                $('#message').html("<div class='alert alert-danger'>There was an error sending your message. Please try again later.</div>").slideDown('slow');
-                $('#submit').removeAttr('disabled'); // Re-enable the submit button
             });
         });
     });
