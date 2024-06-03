@@ -1,61 +1,30 @@
-$(document).ready(function() {
-    // Function to validate the form
-    const validateForm = () => {
-        // Get form inputs
-        const nameInput = $('#name');
-        const emailInput = $('#email');
-        const subjectInput = $('#subject');
-        const commentsInput = $('#comments');
-        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-        // Check if any of the required fields are empty
-        if (nameInput.val().trim() === "" || emailInput.val().trim() === "" || subjectInput.val().trim() === "" || commentsInput.val().trim() === "") {
-            return false;
-        }
-
-        // Check for valid email format
-        if (!emailPattern.test(emailInput.val().trim())) {
-            return false;
-        }
-
-        return true;
-    };
-
-    // When the document is fully loaded and ready
-    $('#contact-form').submit(function(event) {
-        event.preventDefault(); // Prevent the default form submission
-
-        // Validate the form fields
-        if (!validateForm()) {
-            // Display error message
-            $('#message').html("<div class='alert alert-danger'>Please fill in all the required fields with valid information.</div>").slideDown('slow');
-            return;
-        }
-
-        var action = $(this).attr('action'); // Get the form's action attribute
-
-        $("#message").slideUp(750, function() { // Hide any existing message with an animation
-            $('#message').hide(); // Hide the message div
-
-            $('#submit')
-                .attr('disabled', 'disabled'); // Disable the submit button to prevent multiple submissions
-
-           $.ajax({
-                url: action, // Formspree endpoint
-                method: "POST",
-                data: $(this).serialize(), // Serialize form data
-                dataType: "json",
-                function(data) { // Callback function to handle the server's response
-                    // Display a success message
-                    $('#message').html("<div class='alert alert-success'>Your message has been sent.</div>").slideDown('slow');
-                    $('#submit').removeAttr('disabled'); // Re-enable the submit button
-
-                    $('#contact-form').slideUp('slow'); // Hide the form
-                }
-            ).fail(function() {  // Handle failure case
-                $('#message').html("<div class='alert alert-danger'>There was an error sending your message. Please try again later.</div>").slideDown('slow');
-                $('#submit').removeAttr('disabled'); // Re-enable the submit button
-            });
-        });
+ var form = document.getElementById("contact-form");
+  
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("contact-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        status.innerHTML = "Thanks for your submission!";
+        form.reset()
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+          } else {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+          }
+        })
+      }
+    }).catch(error => {
+      status.innerHTML = "Oops! There was a problem submitting your form"
     });
-});
+  }
+  form.addEventListener("submit", handleSubmit)
