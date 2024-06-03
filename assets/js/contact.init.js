@@ -1,4 +1,4 @@
-ocument.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     var form = document.getElementById("contact-form");
     var status = document.getElementById("contact-form-status");
 
