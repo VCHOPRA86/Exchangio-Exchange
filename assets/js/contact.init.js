@@ -39,7 +39,7 @@ $(document).ready(function() {
 
             $('#submit')
                 .attr('disabled', 'disabled'); // Disable the submit button to prevent multiple submissions
-
+ 
             $.ajax({
                 url: action, // Formspree endpoint
                 method: "POST",
