@@ -179,6 +179,9 @@ Contact Form: Users can submit inquiries or feedback through an integrated conta
 * [CSS Gradient](https://cssgradient.io/)
   * For help with colour choses.
  
+* [Particles.js](https://github.com/VincentGarreau/particles.js)
+  * Added particles js from Vincent Garreau
+ 
 * [Favicon.io](https://favicon.io/)
   * Added a Favicon icon to the website.
 
