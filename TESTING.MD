@@ -36,6 +36,12 @@ Exchangio Exchange site showed an error using the JSHint Javascript validation t
 
 <h2 align="center"><img src="assets/readme/jshint.png"></h2>
 
+## Google console log
+
+Exchangio Exchange site showed an error in the console. See resolved bug.
+
+<h2 align="center"><img src="assets/readme/googlecons.png"></h2>
+
 
 # PageSpeed Insights
 
@@ -110,6 +116,9 @@ The feedback on the website and documentation was positive overall.  Feedback in
     https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
 
 - Undefined variable in the script.js file for currencies which has been resolved. 
+
+- Issues with the contact.init.js not working correctly - found a solution by wrapping the code inside
+  the  DOMContentLoaded event listener to ensure the script only runs the the DOM has fully loaded.
 
 
 Back to [README.md](/README.md#testing)
