@@ -45,7 +45,7 @@ $(document).ready(function() {
                 method: "POST",
                 data: $(this).serialize(), // Serialize form data
                 dataType: "json",
-                function(data) { // Callback function to handle the server's response
+                success: function(data) { // Callback function to handle the server's response
                     // Display a success message
                     $('#message').html("<div class='alert alert-success'>Your message has been sent.</div>").slideDown('slow');
                     $('#submit').removeAttr('disabled'); // Re-enable the submit button
