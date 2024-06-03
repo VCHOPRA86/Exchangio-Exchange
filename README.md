@@ -198,9 +198,10 @@ Contact Form: Users can submit inquiries or feedback through an integrated conta
   * WebFormatter was used to help beautify the code.
 
 * [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
-    Google Chrome's Dev Tools were used while building the project to test responsiveness and for debugging.
+  * Google Chrome's Dev Tools were used while building the project to test responsiveness and for debugging.
+* [JSHint](https://jshint.com/)
+  * For help with javaScript bugs.
 
- 
 * [Visual Studio Code](https://code.visualstudio.com/)
   * Integrated development environment (IDE) used for development.
 
