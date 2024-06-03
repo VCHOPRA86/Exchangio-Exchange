@@ -10,7 +10,7 @@ const exchangeRateInput = document.getElementById("exchange-rate"); // Line to g
 
 
 // Create dropdown from the currencies in array
-currencies.forEach((currency) => {
+currencies.for((currency) => {
   const option = document.createElement("option");
   option.value = currency;
   option.text = currency;
