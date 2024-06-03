@@ -1,6 +1,6 @@
 //add currency codes here
 
-const currencies  = [
+currencies  = [
   "AED",
   "ARS",
   "AUD",
