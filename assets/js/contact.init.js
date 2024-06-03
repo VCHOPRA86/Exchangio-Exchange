@@ -39,23 +39,22 @@ $(document).ready(function() {
 
             $('#submit')
                 .attr('disabled', 'disabled'); // Disable the submit button to prevent multiple submissions
- 
-            $.ajax({
+
+           $.ajax({
                 url: action, // Formspree endpoint
                 method: "POST",
-                data: $('#contact-form').serialize(), // Serialize form data
+                data: $(this).serialize(), // Serialize form data
                 dataType: "json",
-                success: function(data) { // Callback function to handle the server's response
+                function(data) { // Callback function to handle the server's response
                     // Display a success message
                     $('#message').html("<div class='alert alert-success'>Your message has been sent.</div>").slideDown('slow');
                     $('#submit').removeAttr('disabled'); // Re-enable the submit button
 
                     $('#contact-form').slideUp('slow'); // Hide the form
-                },
-                error: function(err) {  // Handle failure case
-                    $('#message').html("<div class='alert alert-danger'>There was an error sending your message. Please try again later.</div>").slideDown('slow');
-                    $('#submit').removeAttr('disabled'); // Re-enable the submit button
                 }
+            ).fail(function() {  // Handle failure case
+                $('#message').html("<div class='alert alert-danger'>There was an error sending your message. Please try again later.</div>").slideDown('slow');
+                $('#submit').removeAttr('disabled'); // Re-enable the submit button
             });
         });
     });
