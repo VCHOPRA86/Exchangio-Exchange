@@ -819,6 +819,11 @@ section#contact {
     padding-top: 100px;
 }
 
+div#message {
+    color: black;
+    font-weight: bold;
+}
+
 
 @media (min-width: 992px) {
     .col-lg-12.curr {
