@@ -6,7 +6,7 @@ const toDropDown = document.getElementById("to-currency-select");
 const result = document.getElementById("result"); // Add this line
 const exchangeRateInput = document.getElementById("exchange-rate"); // Line to get input element for exchange rate
 
-// currency-codes
+//add currency codes here
 const currencies = [
   "AED", "ARS", "AUD", "BGN", "BRL", "BSD", "CAD", "CHF", "CLP", "CNY", "COP", "CZK", "DKK", "DOP", "EGP", "EUR", "FJD",
   "GBP", "GTQ", "HKD", "HRK", "HUF", "IDR", "ILS", "INR", "ISK", "JPY", "KES", "KGS", "KRW", "KWD", "KZT", "MXN", "MYR",
