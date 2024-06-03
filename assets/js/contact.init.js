@@ -40,12 +40,11 @@ $(document).ready(function() {
             $('#submit')
                 .attr('disabled', 'disabled'); // Disable the submit button to prevent multiple submissions
 
-            $.post(action, { // Send an AJAX POST request
-                    name: $('#name').val(), // Get the value of the name input
-                    email: $('#email').val(), // Get the value of the email input
-                    subject: $('#subject').val(), // Get the value of the subject input
-                    comments: $('#comments').val() // Get the value of the comments textarea
-                },
+             $.ajax({
+                url: action, // Formspree endpoint
+                method: "POST",
+                data: $(this).serialize(), // Serialize form data
+                dataType: "json",
                 function(data) { // Callback function to handle the server's response
                     // Display a success message
                     $('#message').html("<div class='alert alert-success'>Your message has been sent.</div>").slideDown('slow');
