@@ -8,9 +8,10 @@ const toDropDown = document.getElementById("to-currency-select");
 const result = document.getElementById("result"); // Add this line
 const exchangeRateInput = document.getElementById("exchange-rate"); // Line to get input element for exchange rate
 
+const currencies = ["AED", "ARS", "AUD", /* rest of the currencies */];
 
 // Create dropdown from the currencies in array
-currencies.for((currency) => {
+currencies.forEach((currency) => {
   const option = document.createElement("option");
   option.value = currency;
   option.text = currency;
