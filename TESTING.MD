@@ -99,7 +99,7 @@ I also personally tested the website on a Cubot kingkong Star, Dell laptop and a
 # Project Feedback Review
 
 In the final stages of the project, I received feedback from friends & family. The feedback on the website and documentation was 
-positive overall. Feedback included changing the color of the cuurrency fact background from grey color to something more vibrant and used https://cssgradient.io/ for this.
+positive overall. Feedback included changing the color of the currency fact background from grey color to something more vibrant and used https://cssgradient.io/ for this.
 
 Create a toggle button which when clicked would reverse the currucries which have both been implemented
 
