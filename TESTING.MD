@@ -98,8 +98,18 @@ I also personally tested the website on a Cubot kingkong Star, Dell laptop and a
 
 # Project Feedback Review
 
-In the final stages of the project, I received feedback from friends & family. 
-The feedback on the website and documentation was positive overall.  Feedback included changing the color of the paragraphs from #999 to #2b2828 as some found it hard to read. Making the logo a clickable link back to the home page. Adding a'Back to Top' button visible on all screen sizes. All have been implemented
+In the final stages of the project, I received feedback from friends & family. The feedback on the website and documentation was 
+positive overall. Feedback included changing the color of the cuurrency fact background from grey color to something more vibrant and used https://cssgradient.io/ for this.
+
+Create a toggle button which when clicked would reverse the currucries which have both been implemented
+
+
+The last two below were great ideas and will looking into adding these in the future.
+Provide historical exchange rate data and trends, allowing users to analyze past performance and make informed decisions.
+
+
+I would like to allow users to customize the site interface, such as selecting their default currencies and preferred 
+layout, to enhance their user experience.
 
 
 # Resolved Bugs
