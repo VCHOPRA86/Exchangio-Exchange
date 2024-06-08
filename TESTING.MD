@@ -4,7 +4,7 @@ The Exchange Exchange website has been tested using the following methods:
 - [Code Validation](#code-validation)
     - [W3C HTML Validator](#w3c-html-validator) 
         - [One Page Site](#one-page-site) 
-        - [Inner Page Links - Currency Facts Section](#inner-page-links--currency-facts-section) 
+        - [Inner Page Links - Currency Facts Section](#inner-page-links-currency-facts-section) 
       
     - [W3C CSS Validator](#w3c-css-validator)
 - [PageSpeed Insights](#PageSpeed-Insights)
