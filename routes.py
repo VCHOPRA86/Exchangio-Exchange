@@ -444,4 +444,4 @@ def create_app():
 
 if __name__ == "__main__":
     app = create_app()
-    app.run(debug=false)  # Run the app in debug mode
+    app.run(debug=False)  # Run the app in debug mode
